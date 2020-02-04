@@ -14,7 +14,7 @@
         <div id="top">
             <div class="wrapper">
                 <div id="logo">
-                    <a href="./index.php" class="lime">Logo<span>.com</span></a>
+                    <a href="./index.php">Logo<span class="lime">.com</span></a>
                 </div>
                 <div class="nav-items">
                     <a href="/login" class="lime">Log In</a> |
@@ -45,5 +45,34 @@
         </nav>
     </header>
         @yield('content')
+
+
+    <footer id="footer">
+        <div class="wrapper">
+            <div id="upper">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="/contact">Contact</a> |
+                        </li>
+                        <li>
+                            <a href="/contact">Copyright infringement</a> |
+                        </li>
+                        <li>
+                            <a href="/contact">Terms of service</a> |
+                        </li>
+                        <li>
+                            <a href="/contact">Privacy policy</a> |
+                        </li>
+                        <li>
+                            <a href="/contact">Add movie or serie</a>
+                        </li>
+                    </ul>
+                </nav>
+                Copyright © MAS 2020
+            </div>
+        </div>
+
+    </footer>    
     </body>
 </html>

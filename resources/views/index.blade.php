@@ -1,9 +1,9 @@
 @extends ('layout')
 
 @section ('content')
-
-<div class="wrapper">
-    ASD
-</div>
-
+<main>
+    <div class="wrapper">
+        ASD
+    </div>
+</main>  
 @endsection
