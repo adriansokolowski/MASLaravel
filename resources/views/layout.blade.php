@@ -17,8 +17,8 @@
                     <a href="./index.php">Logo<span class="lime">.com</span></a>
                 </div>
                 <div class="nav-items">
-                    <a href="/login" class="lime">Log In</a> |
-                    <a href="/register">Sign Up</a>
+                    <a href="{{ route('login') }}" class="lime">Log In</a> |
+                    <a href="{{ route('register') }}">Sign Up</a>
                 </div>
             </div>
         </div>
